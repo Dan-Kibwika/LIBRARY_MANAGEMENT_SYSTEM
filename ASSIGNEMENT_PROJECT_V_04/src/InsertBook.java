@@ -60,7 +60,7 @@ public class InsertBook extends  Book {
                         inputText.close();
 
 
-                        //DISPLAY CONTENT OF THE BOOK
+                        //DISPLAY CONTENTS OF THE BOOKS
 
                         System.out.println("Contents of the BOOK ");
 
