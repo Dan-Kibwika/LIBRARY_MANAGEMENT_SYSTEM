@@ -9,13 +9,18 @@ import java.util.Scanner;
 public class Book  extends Shelf { /*Actually, BOOKs inherites Some features from the Shelf like the Category of Book,
                        the number where it can  be found  , SO WE EXTEND THE CLASS SHELF INTO BOOKS */
 
-
+  
+// Atributes 
+  
     private String BookName;
     private String Book_edition ;
     private String Author ;
     private String Category;
     static int count;
 
+  
+  //Constructors
+  
     public Book(String[] categoryName, int shelfNumber, int count, String bookName, String book_edition, String author, String category) {
         super(categoryName, shelfNumber, count);
         BookName = bookName;
