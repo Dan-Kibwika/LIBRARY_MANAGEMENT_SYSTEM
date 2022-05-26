@@ -12,7 +12,7 @@ public class Lecturer  extends  Shelf {//Student class starts
         this.studentNumber = studentNumber;
         this.studentFaculty = studentFaculty;
     }
-
+//getters and setters 
     public String getStudentNumber() {
         return studentNumber;
     }
