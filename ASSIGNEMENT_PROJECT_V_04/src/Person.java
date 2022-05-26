@@ -8,7 +8,7 @@ public class Person {
     //ATTRIBUTES
     private  String LastName , Surname, nationalID,gender, dateOfBirth;
 
-//CONSTRUCTOR
+
     public Person(String lastName, String surname, String nationalID, String gender, String dateOfBith) {
         this.LastName = lastName;
         this.Surname = surname;
